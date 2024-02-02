@@ -16,9 +16,10 @@ To get all the repository files :
 ```
 git clone https://github.com/HenessA/RNA_Folding_Project/tree/main
 ```
-Then go to the directory that contain all: 
+Then go to the directory that contain and check : 
 ```
 cd RNA_Folding_Project
+ls
 ```
 Follow the next step, in guideline...
 ## Guideline

@@ -6,3 +6,7 @@ The goal, using the following worflow, is to estimate the Gibbs free energy. Ind
 The workflow is containing, the following scripts: 
 
 - `ìnter_atomic_distances.py`
+- `distances_calculator.py
+- `frequency_calculator`
+- `scoring_values.py`
+- `gibbs_free_energy.py`

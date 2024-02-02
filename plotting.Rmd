@@ -1,0 +1,40 @@
+---
+title: "plotting"
+output: html_document
+date: "2024-01-31"
+---
+
+```{r cars}
+library(ggplot2)
+
+# List of base pairs
+base_pairs <- c("AA", "AC", "AG", "AU", "CC", "CG", "GG", "UC", "UG", "UU")
+
+# Plot interaction profiles for each base pair
+for (base_pair in base_pairs) {
+  # Read the CSV file
+  file_name <- paste(base_pair, "_scoring_values.csv", sep="")
+  data <- read.csv(file_name)
+  
+  # Plot the interaction profile
+  p <- ggplot(data, aes(x=Distance, y=Score)) +
+         geom_line() +
+         labs(title=paste("Interaction Profile -", base_pair), x="Distance", y="Score") +
+         theme_minimal()
+  
+  # Save the plot as a PDF file
+  pdf_file <- paste(base_pair, "_interaction_profile.pdf", sep="")
+  ggsave(pdf_file, plot=p, device="pdf")
+  
+  # Print the plot to the screen
+  print(p)
+}
+
+```
+
+
+
+
+
+
+

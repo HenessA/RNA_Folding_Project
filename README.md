@@ -12,8 +12,14 @@ The workflow is containing the following scripts, we advice to use python 3. Mak
 - `gibbs_free_energy.py`
 
 ## Installation
+To get all the repository files : 
 ```
 git clone https://github.com/HenessA/RNA_Folding_Project/tree/main
 ```
+Then go to the directory that contain all: 
+```
+cd RNA_Folding_Project
+```
+Follow the next step, in guideline...
 ## Guideline
 ## Visualization 

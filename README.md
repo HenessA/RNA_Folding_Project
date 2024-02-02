@@ -12,6 +12,6 @@ The workflow is containing the following scripts, we advice to use python 3. Mak
 - `gibbs_free_energy.py`
 
 ## Installation
-<git clone>
+$ git clone
 ## Guideline
 ## Visualization 

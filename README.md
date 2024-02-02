@@ -5,4 +5,4 @@ The goal, using the following worflow, is to estimate the Gibbs free energy. Ind
 
 The workflow is containing, the following scripts: 
 
-- ìnter_atomic_distances.py`
+- `ìnter_atomic_distances.py`

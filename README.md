@@ -13,7 +13,7 @@ The workflow is containing the following scripts, we advice to use python 3. Mak
 
 ## Installation
 ```
-git clone
+git clone https://github.com/HenessA/RNA_Folding_Project/tree/main
 ```
 ## Guideline
 ## Visualization 

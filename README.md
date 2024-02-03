@@ -5,7 +5,10 @@ The goal, using the following worflow, is to estimate the **Gibbs free energy**.
 
 The workflow is containing the following scripts, we advice to use python 3. Make sure to have all the packages from `requirements.txt` to use it.  
 
-- `distances_calculator.py`
+- `distances_calculator.py`:
+    Reading and calculating interatomic distances. 
+    The first code extracts data from PDB files and calculates interatomic distances between C3' atoms of different base pairs.
+    It also provides a function to merge these distances from multiple files.
 - `frequency_calculator.py`
 - `scoring_values.py`
 - `ìnter_atomic_distances.py`

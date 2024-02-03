@@ -16,7 +16,7 @@ The third code implements functions to compute score values based on observed an
 - `ìnter_atomic_distances.py`: Reading and computing score values for filtered distances:
 The fourth code reads score values from files and calculates scores for filtered interatomic distances using these score values.
 - `gibbs_free_energy.py`: Estimating Gibbs free energy:
-The final code orchestrates the entire process by computing interatomic distances, filtering distances, calculating scores for filtered distances, and ultimately estimating Gibbs free energy based on the calculated scores.
+The final code coodinates the entire process by computing interatomic distances, filtering distances, calculating scores for filtered distances, and ultimately estimating Gibbs free energy based on the calculated scores.
 
 ## Installation
 To get all the repository files : 

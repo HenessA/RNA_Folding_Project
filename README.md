@@ -11,9 +11,12 @@ The workflow is containing the following scripts, we advice to use python 3. Mak
     It also provides a function to merge these distances from multiple files.
 - `frequency_calculator.py`: Computing observed and reference frequencies:
 The second code defines functions to compute observed frequencies of interatomic distances within specific intervals and reference frequencies based on given distance lists.
-- `scoring_values.py`
-- `ìnter_atomic_distances.py`
-- `gibbs_free_energy.py`
+- `scoring_values.py`: Calculating and writing score values:
+The third code implements functions to compute score values based on observed and reference frequencies, then writes them to CSV and TXT files.
+- `ìnter_atomic_distances.py`: Reading and computing score values for filtered distances:
+The fourth code reads score values from files and calculates scores for filtered interatomic distances using these score values.
+- `gibbs_free_energy.py`: Estimating Gibbs free energy:
+The final code orchestrates the entire process by computing interatomic distances, filtering distances, calculating scores for filtered distances, and ultimately estimating Gibbs free energy based on the calculated scores.
 
 ## Installation
 To get all the repository files : 

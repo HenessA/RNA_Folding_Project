@@ -9,7 +9,8 @@ The workflow is containing the following scripts, we advice to use python 3. Mak
     Reading and calculating interatomic distances. 
     The first code extracts data from PDB files and calculates interatomic distances between C3' atoms of different base pairs.
     It also provides a function to merge these distances from multiple files.
-- `frequency_calculator.py`
+- `frequency_calculator.py`: Computing observed and reference frequencies:
+The second code defines functions to compute observed frequencies of interatomic distances within specific intervals and reference frequencies based on given distance lists.
 - `scoring_values.py`
 - `ìnter_atomic_distances.py`
 - `gibbs_free_energy.py`

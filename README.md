@@ -38,7 +38,7 @@ python3 inter_atomic_distances.py
 python3 gibbs_free_energy.py
 ```
 ## Visualization 
-Import the `plotting.Rmd`script and the *_scoring_values.csv in RStudio, to get the plot such as following (for each considered pair, so 10 plots) : 
+Import the `plotting.Rmd` script and set the working directory that contain the .csv files (*_scoring_values.csv) in RStudio, then run the script to get the plot such as following (for each considered pair, so 10 plots) : 
 
 ![image](https://github.com/HenessA/RNA_Folding_Project/assets/94346915/6871bd4f-ee26-49b5-a6c1-44556e1ef64f)
 ![image](https://github.com/HenessA/RNA_Folding_Project/assets/94346915/8abc0ecf-5caa-4faf-9811-980e04a4a41c)

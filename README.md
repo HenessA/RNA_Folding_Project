@@ -23,11 +23,9 @@ ls
 ```
 Follow the next step, in guideline...
 ## Guideline
-1
 ```
 python3 inter_atomic_distances.py
 ```
-2 
 ```
 python3 gibbs_free_energy.py
 ```

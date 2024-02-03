@@ -23,7 +23,8 @@ ls
 ```
 Follow the next step, in guideline...
 ## Guideline
-1. ```
+1.
+```
 python3 inter_atomic_distances.py
 ```
 

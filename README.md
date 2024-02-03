@@ -23,6 +23,7 @@ ls
 ```
 Follow the next step, in guideline...
 ## Guideline
+Follow the command line in the following order :
 ```
 python3 inter_atomic_distances.py
 ```

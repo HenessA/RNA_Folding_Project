@@ -3,8 +3,16 @@ from Scoring_values import compute_scoring_values
 from itertools import combinations
 import math
 import math
+import argparse
 from itertools import combinations
 
+SCRIPT_DESCRIPTION = """
+Calculate scoring values for interatomic distances and write them to CSV and TXT files.
+"""
+
+parser = argparse.ArgumentParser(description=SCRIPT_DESCRIPTION)
+
+args = parser.parse_args()
 
 def read_pdb(file_path):
     atoms_data = []

@@ -1,5 +1,16 @@
+import argparse
+
 num_intervals = 20
 interval_size = 1.0  # Angstrom
+
+
+SCRIPT_DESCRIPTION = """
+Calculate observed and reference frequencies for interatomic distances.
+"""
+parser = argparse.ArgumentParser(description=SCRIPT_DESCRIPTION)
+
+args = parser.parse_args()
+
 def compute_observed_frequencies(pair_distances_list):
 
     observed_freq = {}

@@ -1,3 +1,4 @@
+import argparse
 from distances_calculator import calculate_interatomic_distances_from_file, merge_distances
 from frequency_calculator import compute_observed_frequencies, compute_reference_frequency
 from Scoring_values import compute_scoring_values, write_scoring_values
@@ -35,4 +36,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Calculate Gibbs free energy for RNA structures")
+    parser.add_argument("--pdb-files", nargs='+', help="Paths to the PDB files containing the RNA structures")
+    args = parser.parse_args()
+
+    if args.pdb_files is None:
+        parser.error("Please specify the paths to the PDB files using --pdb-files argument")
+
+    main(args.pdb_files)

@@ -7,7 +7,7 @@ import argparse
 from itertools import combinations
 
 SCRIPT_DESCRIPTION = """
-Calculate scoring values for interatomic distances and write them to CSV and TXT files.
+Calculates interatomic distances between C3' atoms of different base pairs.
 """
 
 parser = argparse.ArgumentParser(description=SCRIPT_DESCRIPTION)

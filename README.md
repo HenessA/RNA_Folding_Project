@@ -44,5 +44,9 @@ Import the `plotting.Rmd` script and set the working directory that contain the 
 ![image](https://github.com/HenessA/RNA_Folding_Project/assets/94346915/8abc0ecf-5caa-4faf-9811-980e04a4a41c)
 ![image](https://github.com/HenessA/RNA_Folding_Project/assets/94346915/1c0b2727-d61b-436f-9dd9-bf439e43d469)
 
+NOTES : 
+The idea while executing the `inter_atomic_distances.py` script was to specify the pdb file to treat in the command line, but we occured some difficulties to use the sys and argparse, so to use it you should write the path as indicate in the script.
+![image](https://github.com/HenessA/RNA_Folding_Project/assets/94346915/c425faa3-8b42-40c6-a4b8-309fe2410461)
 
+For now a error message is print when no pdb file is specify. 
 

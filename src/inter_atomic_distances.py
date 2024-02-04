@@ -11,7 +11,7 @@ def main():
     output_file = "distances_output.txt"
     merged_distances = merge_distances(distances_list)
 
-    with open("/home/henes/Téléchargements/merged_distances.txt", "w") as output_file:
+    with open("/path/to/store/merged_distances.txt", "w") as output_file:
         for base_pair, pair_distances in merged_distances.items():
             output_file.write(f"Base Pair: {base_pair}, Distances: {pair_distances}\n")
 

@@ -2,12 +2,7 @@ from distances_calculator import calculate_interatomic_distances_from_file, merg
 from frequency_calculator import compute_observed_frequencies, compute_reference_frequency
 from Scoring_values import compute_scoring_values, write_scoring_values
 def main():
-    pdb_files = ['/home/henes/Téléchargements/1drr.pdb',
-                 '/home/henes/Téléchargements/2ap0.pdb',
-                 '/home/henes/Téléchargements/1c2x.pdb',
-                 '/home/henes/Téléchargements/7jrs.pdb',
-                 '/home/henes/Téléchargements/7jrt.pdb',
-                 ]
+    pdb_files = ['/path/to/file/*.pdb']
 
     distances_list = []
     for file_path in pdb_files:

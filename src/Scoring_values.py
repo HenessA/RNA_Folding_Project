@@ -1,5 +1,14 @@
 import csv
 import math
+import argparse
+
+SCRIPT_DESCRIPTION = """
+Calculate scoring values for interatomic distances and write them to CSV and TXT files.
+"""
+
+parser = argparse.ArgumentParser(description=SCRIPT_DESCRIPTION)
+
+args = parser.parse_args()
 
 def compute_scoring_values(observed_freq, reference_freq):
     scoring_values = {}
